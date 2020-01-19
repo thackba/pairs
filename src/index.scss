@@ -3,14 +3,10 @@ $primary-color: #222222;
 
 @import "./pairs_sprite/sprite.scss";
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-}
-
 #pairs {
   #pairsContainer {
-    max-width: 500px;
+    // max-width: 500px;
+    width: 100%;
 
     .pairsRow {
       clear: both;

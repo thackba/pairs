@@ -1,15 +1,11 @@
-# 🚀 Welcome to your new awesome project!
+# Pairs
 
-This project has been created using **webpack scaffold**, you can now run
+This is a small implementation of the game "Pairs".
+
+## Build
+
+Build with
 
 ```
 npm run build
 ```
-
-or
-
-```
-yarn build
-```
-
-to bundle your application

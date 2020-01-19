@@ -33,6 +33,13 @@ class PairsGame {
         return new SelectResult(card.image);
       }
       if (this.move === 1) {
+        // check for different card
+        if (
+          this.selectedLocation.x === location.x &&
+          this.selectedLocation.y === location.y
+        ) {
+          return new SelectResult(-1);
+        }
         const oldCard = this.board.getCard(
           this.selectedLocation.x,
           this.selectedLocation.y

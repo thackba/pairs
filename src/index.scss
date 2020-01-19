@@ -1,0 +1,52 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #222222;
+
+@import "./pairs_sprite/sprite.scss";
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+#pairs {
+  #pairsContainer {
+    max-width: 500px;
+
+    .pairsRow {
+      clear: both;
+      line-height: 0;
+      overflow: hidden;
+    }
+
+    .pairsCard {
+      float: left;
+      width: 12.5%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@function strip-unit($number) {
+  @return $number / ($number * 0 + 1);
+}
+
+@mixin pairs-sprite-position($sprite) {
+  $sprite-offset-x: percentage(abs(strip-unit(nth($sprite, 3) / 256)) * 0.2);
+  $sprite-offset-y: percentage(abs(strip-unit(nth($sprite, 4) / 256)) * 0.2);
+  background-position: $sprite-offset-x $sprite-offset-y;
+}
+
+@mixin pairs-sprite($sprite) {
+  @include sprite-image($sprite);
+  @include pairs-sprite-position($sprite);
+  background-size: 600%;
+}
+
+@for $counter from 1 through 32 {
+  .image-#{$counter} {
+    @include pairs-sprite(nth($spritesheet-sprites, $counter));
+  }
+}

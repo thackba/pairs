@@ -1,0 +1,174 @@
+#pairs {
+  max-width: 720px; }
+  #pairs #pairsContainer {
+    width: 100%; }
+    #pairs #pairsContainer .pairsRow {
+      clear: both;
+      line-height: 0;
+      overflow: hidden; }
+    #pairs #pairsContainer .pairsCard {
+      float: left;
+      width: 12.5%; }
+      #pairs #pairsContainer .pairsCard img {
+        width: 100%; }
+
+.image-1 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 0% 0%;
+  background-size: 600%; }
+
+.image-2 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 20% 0%;
+  background-size: 600%; }
+
+.image-3 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 0% 20%;
+  background-size: 600%; }
+
+.image-4 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 20% 20%;
+  background-size: 600%; }
+
+.image-5 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 40% 0%;
+  background-size: 600%; }
+
+.image-6 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 40% 20%;
+  background-size: 600%; }
+
+.image-7 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 0% 40%;
+  background-size: 600%; }
+
+.image-8 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 20% 40%;
+  background-size: 600%; }
+
+.image-9 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 40% 40%;
+  background-size: 600%; }
+
+.image-10 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 60% 0%;
+  background-size: 600%; }
+
+.image-11 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 60% 20%;
+  background-size: 600%; }
+
+.image-12 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 60% 40%;
+  background-size: 600%; }
+
+.image-13 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 0% 60%;
+  background-size: 600%; }
+
+.image-14 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 20% 60%;
+  background-size: 600%; }
+
+.image-15 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 40% 60%;
+  background-size: 600%; }
+
+.image-16 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 60% 60%;
+  background-size: 600%; }
+
+.image-17 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 80% 0%;
+  background-size: 600%; }
+
+.image-18 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 80% 20%;
+  background-size: 600%; }
+
+.image-19 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 80% 40%;
+  background-size: 600%; }
+
+.image-20 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 80% 60%;
+  background-size: 600%; }
+
+.image-21 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 0% 80%;
+  background-size: 600%; }
+
+.image-22 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 20% 80%;
+  background-size: 600%; }
+
+.image-23 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 40% 80%;
+  background-size: 600%; }
+
+.image-24 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 60% 80%;
+  background-size: 600%; }
+
+.image-25 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 80% 80%;
+  background-size: 600%; }
+
+.image-26 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 100% 0%;
+  background-size: 600%; }
+
+.image-27 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 100% 20%;
+  background-size: 600%; }
+
+.image-28 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 100% 40%;
+  background-size: 600%; }
+
+.image-29 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 100% 60%;
+  background-size: 600%; }
+
+.image-30 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 100% 80%;
+  background-size: 600%; }
+
+.image-31 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 0% 100%;
+  background-size: 600%; }
+
+.image-32 {
+  background-image: url(c3f07581dbc61018519d644674084884.png);
+  background-position: 20% 100%;
+  background-size: 600%; }
+
